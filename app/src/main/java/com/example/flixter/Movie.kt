@@ -17,9 +17,9 @@ data class Movie (
                 movies.add(
                     Movie(
                         movieJson.getInt("id"),
-                        movieJson.getString("poster_path"),
                         movieJson.getString("title"),
-                        movieJson.getString("overview")
+                        movieJson.getString("overview"),
+                        movieJson.getString("poster_path")
 
                     )
                 )

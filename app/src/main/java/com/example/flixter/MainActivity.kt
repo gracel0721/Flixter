@@ -12,8 +12,7 @@ import org.json.JSONException
 
 private const val TAG = "MainActivity"
 private const val NOW_PLAYING_URL =
-    "https://api.themoviedb.org/3/movie/now_playing?api_key=12901f72c4cbac15c5e22dc40ae7b77d"
-
+    "https://api.themoviedb.org/3/movie/now_playing?api_key=12901f72c4cbac15c5e22dc40ae7b77d&language=en-US&page=1"
 class MainActivity : AppCompatActivity() {
     private val movies = mutableListOf<Movie>()
     private lateinit var rvMovies: RecyclerView
